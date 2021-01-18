@@ -11,6 +11,10 @@ DISMIR_value_sample.py predicts the source of each individual read with the trai
 
 DISMIR_cal_risk.py calculates the risk that the plasma donor is suffering from cancer with the results from DISMIR_value_sample.py
 
+Information about the environment we used:
+Python 3.8.3
+Tensorflow 2.2.0
+Keras 2.3.1
 
 
 For testing the pipline, we generated several fictitious samples and put them in the directory "train_data" and "test_data". Putting them in the corresponding directory in DISMIR_training.py and DISMIR_value_sample.py, the core codes can be tested.
