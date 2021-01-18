@@ -19,4 +19,4 @@ Keras 2.3.1
 
 For testing the pipline, we generated several fictitious samples and put them in the directory "train_data" and "test_data". Putting them in the corresponding directory in DISMIR_training.py and DISMIR_value_sample.py, the core codes can be tested.
 
-We also provided scripts to process .BAM file mapped with BS-seeker2. By running the script in "script_for_bam" in order, you can get the .BED file containing switching regions and .read files as the input of the deep learning model. You can process your own data with these scripts and then test the core codes of DISMIR.
+We also provided scripts to process .BAM files mapped with BS-seeker2. By running the script in "script_for_bam" in order, you can get the .BED file containing switching regions and .read files as the input of the deep learning model. You can process your own data with these scripts and then test the core codes of DISMIR. Here we need samtools to process the .BAM files. Python package pyfaidx and pysam are also required.
