@@ -1,0 +1,10 @@
+result_test_normal_1.read.txt	0.0
+result_test_normal_2.read.txt	0.0
+result_test_normal_3.read.txt	0.0
+result_test_normal_4.read.txt	0.0
+result_test_normal_5.read.txt	0.0
+result_test_tumor_1.read.txt	0.157
+result_test_tumor_2.read.txt	0.156
+result_test_tumor_3.read.txt	0.151
+result_test_tumor_4.read.txt	0.149
+result_test_tumor_5.read.txt	0.161
