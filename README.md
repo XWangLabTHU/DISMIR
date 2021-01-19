@@ -1,5 +1,5 @@
 # DISMIR
-These codes are core codes of DISMIR:
+Here we present the core codes of DISMIR:
 
 *DISMIR_training.py* builds and trains a deep learning model to predict the source of individual cell-free DNA reads. The input data files should contain following information:
 * the first column: the chromosome where the read is from (e.g. chr1)
@@ -18,9 +18,9 @@ Information about the environment we used:
 
 
 For testing the pipline, we generated several fictitious samples and put them in the directory "train_data" and "test_data". Putting them in the corresponding directory in *DISMIR_training.py* and *DISMIR_predict_reads_source.py*, the core codes can be tested. With given fictious samples, the training result of *DISMIR_training.py* should be like:
-> - loss: 0.3994 - accuracy: 0.8534 - val_loss: 0.4017 - val_accuracy: 0.8523
+> -loss: 0.3994 -accuracy: 0.8534 -val_loss: 0.4017 -val_accuracy: 0.8523
 
-We also put the result file from *DISMIR_cal_risk.py* for reference(*value_result.txt* in the root directory)
+We also put the result file from *DISMIR_cal_risk.py* for reference (*value_result.txt* in the root directory)
 
 
 
