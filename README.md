@@ -1,5 +1,7 @@
 # DISMIR
-Here we present the core codes of DISMIR:
+Here we present the codes of DISMIR:
+
+Files with prefix "DISMIR" are core codes
 
 *DISMIR_training.py* builds and trains a deep learning model to predict the source of individual cell-free DNA reads. The input data files should contain following information:
 * the first column: the chromosome where the read is from (e.g. chr1)
@@ -23,5 +25,4 @@ For testing the pipline, we generated several fictitious samples and put them in
 We also put the result file from *DISMIR_cal_risk.py* for reference (*value_result.txt* in the root directory)
 
 
-
-We also provided scripts to process *.BAM* files mapped with *BS-seeker2*. By running the script in "bam_processing" in order, you can get the *.BED* file containing switching regions and *.read* files as the input of the deep learning model. You can process your own data with these scripts and then test the core codes of DISMIR. Here we need *samtools* to process the *.BAM* files. Python package *pyfaidx* and *pysam* are also required.
+For users to realize DISMIR, we also provided scripts to process *.BAM* files mapped with *BS-seeker2*. By running the script in "bam_processing" in order, you can get the *.BED* files containing switching regions and *.read* files as the input of the deep learning model. You can process your own data with these scripts and then realize DISMIR with the core codes. Here we need *samtools* to process the *.BAM* files. Python package *pyfaidx* and *pysam* are also required.
