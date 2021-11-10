@@ -26,3 +26,10 @@ We also put the result file from *DISMIR_cal_risk.py* for reference (*value_resu
 
 
 For users to realize DISMIR, we also provided scripts to process *.BAM* files mapped with *BS-seeker2*. By running the script in "bam_processing" in order, you can get the *.BED* files containing switching regions and *.read* files as the input of the deep learning model. You can process your own data with these scripts and then realize DISMIR with the core codes. Here we need *samtools* to process the *.BAM* files. Python package *pyfaidx* and *pysam* are also required.
+
+
+
+#Citation
+If you use this code for your research, please cite our paper:
+
+Jiaqi Li, Lei Wei, Xianglin Zhang, Wei Zhang, Haochen Wang, Bixi Zhong, Zhen Xie, Hairong Lv, Xiaowo Wang, DISMIR: Deep learning-based noninvasive cancer detection by integrating DNA sequence and methylation information of individual cell-free DNA reads, Briefings in Bioinformatics, Volume 22, Issue 6, November 2021, bbab250, https://doi.org/10.1093/bib/bbab250
