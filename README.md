@@ -29,7 +29,7 @@ For users to realize DISMIR, we also provided scripts to process *.BAM* files ma
 
 
 
-#Citation
+# Citation
 If you use this code for your research, please cite our paper:
 
 Jiaqi Li, Lei Wei, Xianglin Zhang, Wei Zhang, Haochen Wang, Bixi Zhong, Zhen Xie, Hairong Lv, Xiaowo Wang, DISMIR: Deep learning-based noninvasive cancer detection by integrating DNA sequence and methylation information of individual cell-free DNA reads, Briefings in Bioinformatics, Volume 22, Issue 6, November 2021, bbab250, https://doi.org/10.1093/bib/bbab250
