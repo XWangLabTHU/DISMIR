@@ -45,5 +45,5 @@ if __name__ == '__main__':
                         count = count + 1
                 output.write(chr_name + '\t' + str(j * bin_length + 1) + '\t' + str((j + 1) * bin_length) + '\t' + str(
                     ratio_H) + '\t' + str(ratio_L) + '\t' + str(count) + '\n')
-
+        output.close()
 
