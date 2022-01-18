@@ -51,3 +51,5 @@ if __name__ == '__main__':
         if (diff[i]>0.3)&(tumor_T_num[i]>25)&(normal_P_num[i]>25):
             B_bed.write(line[0]+'\t'+line[1]+'\t'+line[2]+'\n')
         i = i+1
+    B_bed.close()
+    file.close()
