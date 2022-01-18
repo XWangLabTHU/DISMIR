@@ -71,4 +71,4 @@ if __name__ == '__main__':
                     continue
                 else:
                     output.write(name+'\t'+start+'\t'+read[5:71]+'\t'+methylation[5:71]+'\n')
-
+            output.close()
